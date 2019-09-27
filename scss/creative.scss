@@ -1,0 +1,77 @@
+// Import custom variables (overrides Bootstrap default variables)
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "./global.scss";
+@import "./navbar.scss";
+@import "./masthead.scss";
+@import "./portfolio.scss";
+@import "./custom.scss";
+
+
+
+
+.main_nav_1 {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-light;
+    @extend .fixed-top;
+    @extend .py-3;
+}  
+
+.main_nav_2 {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-light;
+    @extend .fixed-top;
+    @extend .py-3;
+    > .container {
+        @extend .flex-column;
+        > .navbar-brand {
+            @extend .mr-0;
+        }
+    }
+}  
+
+.main_nav_3 {
+    @extend .navbar;
+    @extend .navbar-light;
+    @extend .fixed-top;
+    @extend .py-3;
+    .navbar-nav .nav-item .nav-link{
+        padding: 0 !important;
+    }
+}  
+
+.hero_1 {
+    @extend .row; 
+    @extend .h-100; 
+    @extend .align-items-center; 
+    @extend .justify-content-center; 
+    @extend .text-center;
+}
+
+.hero_2 {
+    @extend .row; 
+    @extend .h-100; 
+    @extend .align-items-center; 
+    hr {
+        float: left;
+        width: 100%;
+    }
+}
+
+.hero_3 {
+    @extend .row; 
+    @extend .h-100; 
+    @extend .align-items-center; 
+    @extend .justify-content-end; 
+    @extend .text-right;
+    hr {
+        float: right;
+        width: 100%;
+    }
+}

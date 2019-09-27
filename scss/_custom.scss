@@ -1,0 +1,188 @@
+
+body.theme_1 {
+  #main_nav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {   
+          &:hover,
+          &:active {
+            color: $primary_theme_1;
+          }
+          &.active {
+            color: $primary_theme_1 !important;
+          }
+        }
+      }
+    }
+      &.navbar-scrolled {
+        .navbar-brand {
+          &:hover {
+            color: $primary_theme_1;
+          }
+        }
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              &:hover {
+                color: $primary_theme_1;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  hr.divider {
+    border-color: $primary_theme_1;
+  }
+
+  .bg-primary {
+    background-color: $primary_theme_1 !important;
+}
+
+.btn-primary {
+  background-color:  $primary_theme_1;
+  border-color:  $primary_theme_1;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color:  $primary_theme_1;
+  border-color:  $primary_theme_1;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary_theme_1,.5);
+}
+
+.text-primary {
+  color: $primary_theme_1 !important;
+}
+
+
+
+}
+
+body.theme_2 {
+  #main_nav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {   
+          &:hover,
+          &:active {
+            color: $primary_theme_2;
+          }
+          &.active {
+            color: $primary_theme_2 !important;
+          }
+        }
+      }
+    }
+      &.navbar-scrolled {
+        .navbar-brand {
+          &:hover {
+            color: $primary_theme_2;
+          }
+        }
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              &:hover {
+                color: $primary_theme_2;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  hr.divider {
+    border-color: $primary_theme_2;
+  }
+
+  .bg-primary {
+    background-color: $primary_theme_2 !important;
+}
+
+.btn-primary {
+  background-color:  $primary_theme_2;
+  border-color:  $primary_theme_2;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color:  $primary_theme_2;
+  border-color:  $primary_theme_2;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary_theme_2,.5);
+}
+
+.text-primary {
+  color: $primary_theme_2 !important;
+}
+
+
+
+}
+
+body.theme_3 {
+  #main_nav {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {   
+          &:hover,
+          &:active {
+            color: $primary_theme_3;
+          }
+          &.active {
+            color: $primary_theme_3 !important;
+          }
+        }
+      }
+    }
+      &.navbar-scrolled {
+        .navbar-brand {
+          &:hover {
+            color: $primary_theme_3;
+          }
+        }
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              &:hover {
+                color: $primary_theme_3;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  hr.divider {
+    border-color: $primary_theme_3;
+  }
+
+  .bg-primary {
+    background-color: $primary_theme_3 !important;
+}
+
+.btn-primary {
+  background-color:  $primary_theme_3;
+  border-color:  $primary_theme_3;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color:  $primary_theme_3;
+  border-color:  $primary_theme_3;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary_theme_3,.5);
+}
+
+.text-primary {
+  color: $primary_theme_3 !important;
+}
+
+
+}
